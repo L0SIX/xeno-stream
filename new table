@@ -1,0 +1,39 @@
+local settings = {
+    SilentAim = {
+        Enabled = true,
+        Key = "C",
+        AimingType = "Closest Part", -- Closest Part, Default
+        AimPart = "HumanoidRootPart",
+        Prediction = 0.119,
+
+        ChanceData = {
+            UseChance = false,
+            Chance = 100,
+        },
+
+        FOVData = {
+            Visibility = true,
+            Filled = false,
+            Radius = 80,
+        },
+
+        AimingData = {
+            CheckKnocked = true,
+            CheckGrabbed = true,
+            CheckWalls = true,
+        },
+    },
+
+    Tracing = {
+        Enabled = true,
+        Key = "Q",
+        AimPart = "HumanoidRootPart",
+        Prediction = 8,
+
+        TracingOptions = {
+            AimingType = "Closest Part",
+            Strength = "Hard", -- Hard, Soft
+            Smoothness = 0.11,
+        },
+    },
+}
